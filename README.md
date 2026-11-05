@@ -1,6 +1,6 @@
 # SDZE: Stochastic Dimension Zeroth-Order Estimator
 
-Implementation of **Stochastic Dimension Zeroth-Order Estimator: Memory-Efficient and Stable Training for High-Dimensional and High-Order PINNs**, by Zhangyong Liang and Huanhuan Gao. The PINN framework builds on [STDE](https://github.com/sail-sg/stde).
+Implementation of **Stochastic Dimension Zeroth-Order Estimator: Memory-Efficient and Stable Training for High-Dimensional and High-Order PINNs**, by Zhangyong Liang and Huanhuan Gao.
 
 ## Core contributions
 

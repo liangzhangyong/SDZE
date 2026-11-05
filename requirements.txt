@@ -1,0 +1,12 @@
+jax==0.6.2
+jaxlib==0.6.2
+dm-haiku==0.0.16
+optax==0.2.4
+chex==0.1.89
+ml-collections>=1.0,<2
+pydantic>=2,<3
+numpy>=1.26,<3
+jaxtyping>=0.2
+absl-py
+shortuuid
+tqdm

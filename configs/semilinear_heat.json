@@ -1,0 +1,40 @@
+{
+  "eqn_cfg": {
+    "name": "SemilinearHeatTime",
+    "dim": 100,
+    "batch_size": 100,
+    "batch_size_boundary": 100,
+    "rand_batch_size": 16,
+    "hess_diag_method": "sparse_sdze",
+    "enforce_boundary": true,
+    "boundary_weight": 0.0,
+    "n_traj": 100,
+    "n_t": 20
+  },
+  "model_cfg": {
+    "width": 128,
+    "depth": 4
+  },
+  "gd_cfg": {
+    "parameter_update": "sdze",
+    "epochs": 256,
+    "zo_rank": 8,
+    "zo_refresh_every": 10,
+    "zo_epsilon": 0.001,
+    "zo_learning_rate": 0.001,
+    "zo_linear_decay": true,
+    "zo_layerwise_queries": false,
+    "zo_subzero_scale": false,
+    "zo_perturb_biases": false,
+    "zo_coefficient_clip": 0.0,
+    "zo_normalize_coefficient": false,
+    "zo_scale_lr_by_q": false
+  },
+  "test_cfg": {
+    "n_points": 200,
+    "batch_size": 200,
+    "eval_every": 64,
+    "data_on_gpu": false,
+    "show_stats": false
+  }
+}
